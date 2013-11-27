@@ -1,0 +1,14 @@
+{
+    "name" : "autenticacion",
+    "description" : "pruebas para hacer uso del modulo de passport para express",
+    "version" : "0.0.1",
+    "private" : true,
+    "dependencies" : {
+        "express" : "3.4.4",
+        "jade":"*",
+        "connect":"*",
+        "mongoose":"*",
+        "passport":"0.1.x",
+        "passport-local":"0.1.x"
+        }
+    }

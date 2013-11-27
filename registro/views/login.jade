@@ -1,0 +1,10 @@
+extends base
+
+block contenido
+  form(action="/login" method="post")
+    label Username:
+    input(name="username" id="username")
+    br
+    label Password:
+    input(name="password" id="password")
+    button(type="submit") Enviar
