@@ -109,7 +109,7 @@ app.get('/login', login.login);
 
 //Logout del sitio
 
-app.get('/logout', function(res,req){
+app.get('/logout', function(req,res){
     req.logout();
     res.redirect('/');
     });
